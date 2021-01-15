@@ -13,12 +13,12 @@ import constants
 def match(random_numbers, number):
     # Checks if there are any matches
 
+    match = 0
+
     for single_element in random_numbers:
         if number == single_element:
             match = 1
             break
-        else:
-            match = 0
 
     return match
 
